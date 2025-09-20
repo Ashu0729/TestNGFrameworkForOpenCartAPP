@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="3" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-09-19T20:28:08 EDT" name="Suite" finished-at="2025-09-19T20:28:24 EDT" duration-ms="16636">
+    <groups>
+      <group name="Master">
+        <method signature="TC002_LoginTest.verify_login()[pri:0, instance:testCases.TC002_LoginTest@76508ed1]" name="verify_login" class="testCases.TC002_LoginTest"/>
+      </group> <!-- Master -->
+      <group name="Sanity">
+        <method signature="TC002_LoginTest.verify_login()[pri:0, instance:testCases.TC002_LoginTest@76508ed1]" name="verify_login" class="testCases.TC002_LoginTest"/>
+      </group> <!-- Sanity -->
+    </groups>
+    <test started-at="2025-09-19T20:28:08 EDT" name="Test" finished-at="2025-09-19T20:28:24 EDT" duration-ms="16636">
+      <class name="testCases.TC002_LoginTest">
+        <test-method is-config="true" signature="beforeClass(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_LoginTest@76508ed1]" started-at="2025-09-19T20:28:09 EDT" name="beforeClass" finished-at="2025-09-19T20:28:19 EDT" duration-ms="10320" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="verify_login()[pri:0, instance:testCases.TC002_LoginTest@76508ed1]" started-at="2025-09-19T20:28:19 EDT" name="verify_login" finished-at="2025-09-19T20:28:23 EDT" duration-ms="4435" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_login -->
+        <test-method is-config="true" signature="afterClass(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_LoginTest@76508ed1]" started-at="2025-09-19T20:28:23 EDT" name="afterClass" finished-at="2025-09-19T20:28:24 EDT" duration-ms="672" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- testCases.TC002_LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
