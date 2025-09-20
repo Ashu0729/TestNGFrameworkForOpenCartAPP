@@ -20,7 +20,6 @@ public class TC003_LoginTestDataDriven extends BasePage {
 		logger.info("clicking my Login link");
 		hp.clickLogin();
 		
-		
 		LoginPage lp = new LoginPage(driver);
 		lp.setEmail(email);
 		lp.setPassword(password);
